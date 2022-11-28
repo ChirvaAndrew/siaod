@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <clocale>
 
@@ -20,13 +19,12 @@ int main() {
     setlocale(LC_ALL, "rus");
 
     //№1
-    cout << "Вв"
     unsigned int num = 0x0;
     coutp(num);
     cout << endl;
     unsigned int maska = 0x20A0;
     coutp(num | maska);
-    cout << endl;
+    cout << "\n\n\n";
 
 
     //№2
@@ -35,7 +33,7 @@ int main() {
     cout << endl;
     maska = 0x0FFFFFFF;
     coutp(num & maska);
-    cout << endl;
+    cout << "\n\n\n";
 
 
     //№3
@@ -44,7 +42,7 @@ int main() {
     cout << endl;
     //unsigned short maska = 0x20A0;
     coutp(num << 9);
-    cout << endl;
+    cout << "\n\n\n";
 
     //№4
     num = 0x00000000;
@@ -58,7 +56,6 @@ int main() {
     a = 31 - a;
     maska = maska >> a;
     coutp(num | maska);
-    cout << endl;
+    cout << "\n\n\n";
     return 0;
 }
-*/
